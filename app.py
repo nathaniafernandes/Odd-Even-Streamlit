@@ -16,7 +16,7 @@ def main():
   num = st.number_input("Number")
   if (num%2 ==0):
     result= "Even"
-   else:
+  else:
     result= "Odd"
   st.success('The output is {}'.format(result))
   if st.button("Made By"):
