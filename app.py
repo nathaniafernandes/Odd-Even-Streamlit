@@ -13,13 +13,15 @@ def main():
   </div>
   """
   st.markdown(html_temp,unsafe_allow_html=True)
-  num1 = st.number_input("Number 1")
-  num2 = st.number_input("Number 2")
-  result = num1 - num2
+  num = st.number_input("Number")
+  if (num%2 ==0):
+    result= "Even"
+   else:
+    result= "Odd"
   st.success('The output is {}'.format(result))
   if st.button("Made By"):
-      st.text("Parth Bansal")
-      st.text("21f3000805")
+      st.text("Nathania Fernandes")
+      st.text("21f1000454")
 
 if __name__=='__main__':
   main()
