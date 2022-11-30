@@ -6,10 +6,10 @@ def welcome():
     return "Welcome All"
 
 def main():
-  st.title("Subtraction")
+  st.title("Find whether the given number is odd or even")
   html_temp = """
   <div style="background-color:tomato;padding:10px">
-  <h2 style="color:white;text-align:center;">Subtraction of 2 numbers using Streamlit</h2>
+  <h2 style="color:white;text-align:center;">Input an integer</h2>
   </div>
   """
   st.markdown(html_temp,unsafe_allow_html=True)
